@@ -47,3 +47,18 @@ msgstr ""
 "'From' вихідного повідомлення не відповідає білому списку доменів, його буде"
 " замінено цим значенням. Якщо відповідає білому списку доменів, вихідне "
 "значення 'From' не змінюватиметься."
+
+#. module: mail_outbound_static
+#. odoo-python
+#: code:addons/mail_outbound_static/models/ir_mail_server.py:0
+msgid ""
+"%s is not a valid domain. Please define a list of valid domains separated by"
+" comma"
+msgstr ""
+"%s не є дійсним доменом. Визначте список дійсних доменів, розділених комами"
+
+#. module: mail_outbound_static
+#. odoo-python
+#: code:addons/mail_outbound_static/models/ir_mail_server.py:0
+msgid "Not a valid Email From"
+msgstr "Недійсна адреса відправника"

@@ -195,3 +195,59 @@ msgid ""
 msgstr ""
 "Якщо ввімкнено, усі учасники команди отримають сповіщення, коли команді "
 "призначено дію."
+
+#. module: mail_activity_team
+#. odoo-python
+#: code:addons/mail_activity_team/wizard/mail_activity_schedule.py:0
+msgid "%(activity)s, assigned to team %(name)s, due on the %(deadline)s"
+msgstr "%(activity)s, призначено команді %(name)s, строк %(deadline)s"
+
+#. module: mail_activity_team
+#. odoo-python
+#: code:addons/mail_activity_team/models/mail_activity.py:0
+msgid "%(activity_name)s: %(summary)s (Team Activity)"
+msgstr "%(activity_name)s: %(summary)s (Командна активність)"
+
+#. module: mail_activity_team
+#. odoo-javascript
+#: code:addons/mail_activity_team/static/src/core/web/activity.xml:0
+msgid "(Team"
+msgstr "(Команда"
+
+#. module: mail_activity_team
+#. odoo-python
+#: code:addons/mail_activity_team/models/mail_activity.py:0
+msgid "Activity: %s"
+msgstr "Діяльність: %s"
+
+#. module: mail_activity_team
+#. odoo-python
+#: code:addons/mail_activity_team/models/mail_activity.py:0
+msgid "Deadline: %s"
+msgstr "Крайній термін: %s"
+
+#. module: mail_activity_team
+#. odoo-python
+#: code:addons/mail_activity_team/models/mail_activity_plan_template.py:0
+msgid "Please enter an activity team."
+msgstr "Введіть команду активностей."
+
+#. module: mail_activity_team
+#. odoo-javascript
+#: code:addons/mail_activity_team/static/src/components/activity_menu_view/activity_menu_view.xml:0
+msgid "Team Activities"
+msgstr "Дії команди"
+
+#. module: mail_activity_team
+#. odoo-python
+#: code:addons/mail_activity_team/models/mail_activity.py:0
+msgid "Team: %s"
+msgstr "Команда: %s"
+
+#. module: mail_activity_team
+#. odoo-python
+#: code:addons/mail_activity_team/models/mail_activity.py:0
+msgid ""
+"The assigned user %(user_name)s is not member of the team %(team_name)s."
+msgstr ""
+"Призначений користувач %(user_name)s не є членом команди %(team_name)s."

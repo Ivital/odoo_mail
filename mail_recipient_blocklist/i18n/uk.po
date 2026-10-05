@@ -136,3 +136,23 @@ msgstr "Регулярний вираз"
 #: model:ir.model,name:mail_recipient_blocklist.model_mail_recipient_block_rule
 msgid "Mail Recipient Block Rule"
 msgstr "Правило блокування одержувачів пошти"
+
+#. module: mail_recipient_blocklist
+#. odoo-python
+#: code:addons/mail_recipient_blocklist/models/mail_mail.py:0
+msgid "Email delivery blocked by recipient blocklist rules."
+msgstr ""
+"Доставку електронної пошти заблоковано правилами списку блокування "
+"одержувачів."
+
+#. module: mail_recipient_blocklist
+#. odoo-python
+#: code:addons/mail_recipient_blocklist/models/mail_recipient_block_rule.py:0
+msgid "Invalid regular expression: %s"
+msgstr "Недійсний регулярний вираз: %s"
+
+#. module: mail_recipient_blocklist
+#. odoo-python
+#: code:addons/mail_recipient_blocklist/models/mail_recipient_block_rule.py:0
+msgid "The block pattern cannot be empty."
+msgstr "Шаблон блокування не може бути порожнім."

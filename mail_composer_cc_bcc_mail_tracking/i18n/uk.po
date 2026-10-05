@@ -82,3 +82,15 @@ msgstr ""
 "Дозволити користувачам перемикатися між одним рядком «Кому» та повним "
 "відображенням Кому/Cc/Bcc. Якщо вимкнено, показується лише стандартне "
 "представлення."
+
+#. module: mail_composer_cc_bcc_mail_tracking
+#. odoo-javascript
+#: code:addons/mail_composer_cc_bcc_mail_tracking/static/src/message.xml:0
+msgid "Bcc:"
+msgstr "Прих. копія:"
+
+#. module: mail_composer_cc_bcc_mail_tracking
+#. odoo-javascript
+#: code:addons/mail_composer_cc_bcc_mail_tracking/static/src/message.xml:0
+msgid "Cc:"
+msgstr "Копія:"

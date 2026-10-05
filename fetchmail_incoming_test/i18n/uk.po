@@ -150,3 +150,15 @@ msgstr "Імітувати вхідний електронний лист"
 #: model:ir.model,name:fetchmail_incoming_test.model_fetchmail_incoming_test_eml
 msgid "Simulate an Incoming Email from a File"
 msgstr "Імітувати вхідний email із файлу"
+
+#. module: fetchmail_incoming_test
+#. odoo-python
+#: code:addons/fetchmail_incoming_test/wizards/fetchmail_incoming_test_mixin.py:0
+msgid "Email processed"
+msgstr "Лист оброблено"
+
+#. module: fetchmail_incoming_test
+#. odoo-python
+#: code:addons/fetchmail_incoming_test/wizards/fetchmail_incoming_test_mixin.py:0
+msgid "The gateway created record #%s."
+msgstr "Шлюз створив запис №%s."

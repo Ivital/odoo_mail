@@ -37,3 +37,9 @@ msgstr ""
 "Домен для фільтрації записів, до яких застосовується цей план. Залиште "
 "порожнім або використайте '[]', щоб застосувати до всіх записів цільової "
 "моделі."
+
+#. module: mail_activity_plan_domain
+#. odoo-python
+#: code:addons/mail_activity_plan_domain/wizards/mail_activity_schedule.py:0
+msgid "Launch Plans"
+msgstr "Запустити плани"

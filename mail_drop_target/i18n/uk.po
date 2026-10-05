@@ -43,3 +43,33 @@ msgstr ""
 "наявного ланцюжка, підписники цього ланцюжка не отримуватимуть сповіщень. "
 "При цьому встановлюється параметр ir.config.parameter "
 "mail_drop_target.disable_notify"
+
+#. module: mail_drop_target
+#. odoo-python
+#: code:addons/mail_drop_target/models/mail_thread.py:0
+msgid "Install the msg-extractor library to handle .msg files"
+msgstr "Встановіть бібліотеку msg-extractor для обробки .msg-файлів"
+
+#. module: mail_drop_target
+#. odoo-python
+#: code:addons/mail_drop_target/models/mail_thread.py:0
+msgid "The already imported copy is attached to: %(locations)s"
+msgstr "Раніше імпортовану копію прикріплено до: %(locations)s"
+
+#. module: mail_drop_target
+#. odoo-python
+#: code:addons/mail_drop_target/controllers/discuss.py:0
+msgid "You are not allowed to upload an attachment here."
+msgstr "Вам не дозволено завантажувати вкладення сюди."
+
+#. module: mail_drop_target
+#. odoo-python
+#: code:addons/mail_drop_target/models/mail_thread.py:0
+msgid "a record that no longer exists."
+msgstr "запис, якого більше не існує."
+
+#. module: mail_drop_target
+#. odoo-python
+#: code:addons/mail_drop_target/models/mail_thread.py:0
+msgid "a record you are not allowed to access."
+msgstr "запис, до якого вам заборонено доступ."

@@ -48,3 +48,9 @@ msgstr "Почати"
 #: model:ir.model.fields,help:mail_activity_board.field_mail_activity__calendar_event_id_start
 msgid "Start date of an event, without time for full days events"
 msgstr "Дата початку події без часу для подій на весь день"
+
+#. module: mail_activity_board
+#. odoo-javascript
+#: code:addons/mail_activity_board/static/src/components/chatter/chatter.xml:0
+msgid "View Activities"
+msgstr "Переглянути активності"

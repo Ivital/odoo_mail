@@ -92,3 +92,27 @@ msgstr "Переслати повідомлення"
 #: code:addons/mail_forward/wizards/mail_compose_message.py:0
 msgid "Fwd:"
 msgstr "Пересл.:"
+
+#. module: mail_forward
+#. odoo-python
+#: code:addons/mail_forward/models/mail_message.py:0
+msgid "---------- Forwarded message ---------"
+msgstr "---------- Переслане повідомлення ---------"
+
+#. module: mail_forward
+#. odoo-javascript
+#: code:addons/mail_forward/static/src/components/forward_message/forward_message.xml:0
+msgid "Forward Message Center"
+msgstr "Переслати повідомлення по центру"
+
+#. module: mail_forward
+#. odoo-javascript
+#: code:addons/mail_forward/static/src/components/forward_message/forward_message.xml:0
+msgid "Forward Message Left"
+msgstr "Переслати повідомлення ліворуч"
+
+#. module: mail_forward
+#. odoo-javascript
+#: code:addons/mail_forward/static/src/components/forward_message/forward_message.xml:0
+msgid "Forward Message Right"
+msgstr "Переслати повідомлення праворуч"

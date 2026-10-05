@@ -22,3 +22,15 @@ msgstr "Додаткові заголовки"
 #: model:ir.model.fields,help:mail_extra_header.field_ir_mail_server__extra_headers
 msgid "Python dictionary, e.g. {\"MY-HEADER\": \"test\"}"
 msgstr "Словник Python, напр. {\"MY-HEADER\": \"test\"}"
+
+#. module: mail_extra_header
+#. odoo-python
+#: code:addons/mail_extra_header/models/ir_mail_server.py:0
+msgid "The extra headers cannot be read (syntax error)."
+msgstr "Додаткові заголовки неможливо прочитати (синтаксична помилка)."
+
+#. module: mail_extra_header
+#. odoo-python
+#: code:addons/mail_extra_header/models/ir_mail_server.py:0
+msgid "The extra headers must be a dictionary of strings."
+msgstr "Додаткові заголовки мають бути словником рядків."

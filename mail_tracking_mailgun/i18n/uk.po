@@ -167,3 +167,67 @@ msgstr "Секретний ключ для перевірки payload вхідн
 #: code:addons/mail_tracking_mailgun/models/res_partner.py:0
 msgid "unknown"
 msgstr "невідомо"
+
+#. module: mail_tracking_mailgun
+#. odoo-python
+#: code:addons/mail_tracking_mailgun/models/mail_tracking_email.py:0
+msgid "A Mailgun domain value is needed!"
+msgstr "Потрібне значення домену Mailgun!"
+
+#. module: mail_tracking_mailgun
+#. odoo-python
+#: code:addons/mail_tracking_mailgun/models/mail_tracking_email.py:0
+msgid "Couldn't retrieve Mailgun information"
+msgstr "Не вдалося отримати інформацію Mailgun"
+
+#. module: mail_tracking_mailgun
+#. odoo-python
+#: code:addons/mail_tracking_mailgun/models/res_partner.py:0
+msgid ""
+"Email has been bounced: %(email)s\n"
+"Reason: %(reason)s\n"
+"Event: %(event_str)s"
+msgstr ""
+"Електронний лист повернуто: %(email)s\n"
+"Причина: %(reason)s\n"
+"Подія: %(event_str)s"
+
+#. module: mail_tracking_mailgun
+#. odoo-python
+#: code:addons/mail_tracking_mailgun/models/mail_tracking_email.py:0
+msgid "Event information not longer stored"
+msgstr "Інформація про подію більше не зберігається"
+
+#. module: mail_tracking_mailgun
+#. odoo-python
+#: code:addons/mail_tracking_mailgun/controllers/main.py:0
+msgid "Request is too old"
+msgstr "Запит надто старий"
+
+#. module: mail_tracking_mailgun
+#. odoo-python
+#: code:addons/mail_tracking_mailgun/controllers/main.py:0
+msgid "Request was already processed"
+msgstr "Запит уже оброблено"
+
+#. module: mail_tracking_mailgun
+#. odoo-python
+#: code:addons/mail_tracking_mailgun/models/mail_tracking_email.py:0
+msgid "There is no Mailgun API key!"
+msgstr "Немає ключа API Mailgun!"
+
+#. module: mail_tracking_mailgun
+#. odoo-python
+#: code:addons/mail_tracking_mailgun/controllers/main.py:0
+msgid "Wrong signature"
+msgstr "Неправильний підпис"
+
+#. module: mail_tracking_mailgun
+#. odoo-python
+#: code:addons/mail_tracking_mailgun/models/res_partner.py:0
+msgid ""
+"You need to configure mailgun.validation_key in order to be able to check "
+"mails validity"
+msgstr ""
+"Потрібно налаштувати mailgun.validation_key, щоб мати змогу перевіряти "
+"дійсність електронних адрес"

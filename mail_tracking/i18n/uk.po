@@ -41,13 +41,13 @@ msgstr "Додаткові одержувачі, які отримують ко�
 #. odoo-python
 #: code:addons/mail_tracking/models/mail_thread.py:0
 msgid "Anon. To"
-msgstr ""
+msgstr "Анон. кому"
 
 #. module: mail_tracking
 #. odoo-javascript
 #: code:addons/mail_tracking/static/src/components/message_tracking/message_tracking_status.xml:0
 msgid "Anonymous Recipient"
-msgstr ""
+msgstr "Анонімний отримувач"
 
 #. module: mail_tracking
 #: model_terms:ir.ui.view,arch_db:mail_tracking.view_mail_tracking_event_search
@@ -160,19 +160,19 @@ msgstr "Доставлено"
 #. odoo-javascript
 #: code:addons/mail_tracking/static/src/components/message_tracking/message_tracking_status.xml:0
 msgid "Delivered Status Center Checkmark"
-msgstr ""
+msgstr "Статус доставки: галочка по центру"
 
 #. module: mail_tracking
 #. odoo-javascript
 #: code:addons/mail_tracking/static/src/components/message_tracking/message_tracking_status.xml:0
 msgid "Delivered Status Left Checkmark"
-msgstr ""
+msgstr "Статус доставки: галочка ліворуч"
 
 #. module: mail_tracking
 #. odoo-javascript
 #: code:addons/mail_tracking/static/src/components/message_tracking/message_tracking_status.xml:0
 msgid "Delivered Status Right Checkmark"
-msgstr ""
+msgstr "Статус доставки: галочка праворуч"
 
 #. module: mail_tracking
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_tracking_email__display_name
@@ -252,7 +252,7 @@ msgstr "Помилка SMTP-сервера"
 #. odoo-javascript
 #: code:addons/mail_tracking/static/src/components/message_tracking/message_tracking_status.xml:0
 msgid "Error Status"
-msgstr ""
+msgstr "Статус помилки"
 
 #. module: mail_tracking
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_tracking_email__error_type
@@ -311,19 +311,19 @@ msgstr "Невдалі повідомлення"
 #: code:addons/mail_tracking/static/src/components/failed_message/failed_message.xml:0
 #: code:addons/mail_tracking/static/src/core/message/message.xml:0
 msgid "Failed Recipients:"
-msgstr ""
+msgstr "Невдалі одержувачі:"
 
 #. module: mail_tracking
 #. odoo-javascript
 #: code:addons/mail_tracking/static/src/core/chatter/chatter.xml:0
 msgid "Failed messages"
-msgstr ""
+msgstr "Невдалі повідомлення"
 
 #. module: mail_tracking
 #. odoo-python
 #: code:addons/mail_tracking/models/mail_thread.py:0
 msgid "Failed sent messages"
-msgstr ""
+msgstr "Невдало надіслані повідомлення"
 
 #. module: mail_tracking
 #. odoo-javascript
@@ -335,7 +335,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/mail_tracking/static/src/components/failed_message/failed_message.xml:0
 msgid "Go to message"
-msgstr ""
+msgstr "Перейти до повідомлення"
 
 #. module: mail_tracking
 #: model_terms:ir.ui.view,arch_db:mail_tracking.view_mail_tracking_email_search
@@ -502,19 +502,19 @@ msgstr "Відкрито"
 #. odoo-javascript
 #: code:addons/mail_tracking/static/src/components/message_tracking/message_tracking_status.xml:0
 msgid "Opened Status Center Checkmark"
-msgstr ""
+msgstr "Статус відкриття: галочка по центру"
 
 #. module: mail_tracking
 #. odoo-javascript
 #: code:addons/mail_tracking/static/src/components/message_tracking/message_tracking_status.xml:0
 msgid "Opened Status Left Checkmark"
-msgstr ""
+msgstr "Статус відкриття: галочка ліворуч"
 
 #. module: mail_tracking
 #. odoo-javascript
 #: code:addons/mail_tracking/static/src/components/message_tracking/message_tracking_status.xml:0
 msgid "Opened Status Right Checkmark"
-msgstr ""
+msgstr "Статус відкриття: галочка праворуч"
 
 #. module: mail_tracking
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_tracking_event__os_family
@@ -606,19 +606,19 @@ msgstr "Надіслано"
 #. odoo-javascript
 #: code:addons/mail_tracking/static/src/components/message_tracking/message_tracking_status.xml:0
 msgid "Sent Status"
-msgstr ""
+msgstr "Статус надсилання"
 
 #. module: mail_tracking
 #. odoo-javascript
 #: code:addons/mail_tracking/static/src/components/failed_message_review/failed_message_review.xml:0
 msgid "Set As Reviewed"
-msgstr ""
+msgstr "Позначити як перевірене"
 
 #. module: mail_tracking
 #. odoo-javascript
 #: code:addons/mail_tracking/static/src/components/failed_message_review/failed_message_review.xml:0
 msgid "Set as Reviewed"
-msgstr ""
+msgstr "Позначити як перевірене"
 
 #. module: mail_tracking
 #: model:ir.model.fields,field_description:mail_tracking.field_res_company__mail_tracking_show_aliases
@@ -653,7 +653,7 @@ msgstr "Стан"
 #. odoo-python
 #: code:addons/mail_tracking/models/mail_message.py:0
 msgid "Status: %s"
-msgstr ""
+msgstr "Статус: %s"
 
 #. module: mail_tracking
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_tracking_email__name
@@ -665,7 +665,7 @@ msgstr "Тема"
 #. odoo-javascript
 #: code:addons/mail_tracking/static/src/components/failed_message/failed_message.xml:0
 msgid "Subject:"
-msgstr ""
+msgstr "Тема:"
 
 #. module: mail_tracking
 #: model:ir.model.fields,help:mail_tracking.field_mail_mail__mail_tracking_needs_action
@@ -679,7 +679,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/mail_tracking/models/mail_message.py:0
 msgid "The partner doesn't have a defined email"
-msgstr ""
+msgstr "Для партнера не визначено електронну адресу"
 
 #. module: mail_tracking
 #. odoo-python
@@ -691,6 +691,11 @@ msgid ""
 "\n"
 "Records: %(records)s, User: %(user)s"
 msgstr ""
+"Запитану операцію неможливо завершити через обмеження безпеки. Зверніться до системного адміністратора.\n"
+"\n"
+"(Тип документа: %(type)s, Операція: %(operation)s)\n"
+"\n"
+"Записи: %(records)s, Користувач: %(user)s"
 
 #. module: mail_tracking
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_tracking_email__time
@@ -755,7 +760,7 @@ msgstr "Невідомо"
 #. odoo-javascript
 #: code:addons/mail_tracking/static/src/components/message_tracking/message_tracking_status.xml:0
 msgid "Unknown Status"
-msgstr ""
+msgstr "Невідомий статус"
 
 #. module: mail_tracking
 #: model_terms:ir.ui.view,arch_db:mail_tracking.view_mail_tracking_event_search
@@ -817,7 +822,7 @@ msgstr "Очікування"
 #. odoo-javascript
 #: code:addons/mail_tracking/static/src/components/message_tracking/message_tracking_status.xml:0
 msgid "Waiting Status"
-msgstr ""
+msgstr "Статус очікування"
 
 #~ msgid "Last Modified on"
 #~ msgstr "Остання модифікація"

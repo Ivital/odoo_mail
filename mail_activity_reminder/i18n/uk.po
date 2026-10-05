@@ -73,3 +73,9 @@ msgstr ""
 "Список зміщень у днях, розділений нецифровими символами, коли мають "
 "спрацьовувати нагадування: наприклад, 0 означає «у день крайнього терміну», "
 "а 5 — «за 5 календарних днів до крайнього терміну»."
+
+#. module: mail_activity_reminder
+#. odoo-python
+#: code:addons/mail_activity_reminder/models/mail_activity.py:0
+msgid "Some activities you are assigned to expire soon."
+msgstr "Деякі призначені вам активності скоро прострочаться."
