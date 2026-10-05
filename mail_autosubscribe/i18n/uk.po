@@ -1,0 +1,52 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: mail_autosubscribe
+#: model:ir.model.fields,field_description:mail_autosubscribe.field_res_partner__mail_autosubscribe_ids
+#: model:ir.model.fields,field_description:mail_autosubscribe.field_res_users__mail_autosubscribe_ids
+#: model:ir.ui.menu,name:mail_autosubscribe.menu_mail_autosubscribe
+msgid "Autosubscribe Models"
+msgstr "Моделі автопідписки"
+
+#. module: mail_autosubscribe
+#: model:ir.model.fields,field_description:mail_autosubscribe.field_mail_autosubscribe__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: mail_autosubscribe
+#: model:ir.model.fields,field_description:mail_autosubscribe.field_mail_autosubscribe__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: mail_autosubscribe
+#: model:ir.model.fields,field_description:mail_autosubscribe.field_mail_autosubscribe__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: mail_autosubscribe
+#: model:ir.model.fields,field_description:mail_autosubscribe.field_mail_autosubscribe__model_id
+msgid "Model"
+msgstr "Модель"
+
+#. module: mail_autosubscribe
+#: model:ir.model.fields,field_description:mail_autosubscribe.field_mail_autosubscribe__model
+msgid "Model Name"
+msgstr "Назва моделі"
+
+#. module: mail_autosubscribe
+#: model:ir.model.fields,field_description:mail_autosubscribe.field_mail_autosubscribe__name
+#: model_terms:ir.ui.view,arch_db:mail_autosubscribe.view_mail_autosubscribe_form
+msgid "Name"
+msgstr "Назва"
