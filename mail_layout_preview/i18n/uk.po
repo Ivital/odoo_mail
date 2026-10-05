@@ -17,3 +17,18 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail_layout_preview.email_templates_list
 msgid "Preview"
 msgstr "Попередній перегляд"
+
+#. module: mail_layout_preview
+#: model_terms:ir.ui.view,arch_db:mail_layout_preview.email_templates_list
+msgid "Copy the link"
+msgstr "Копіювати посилання"
+
+#. module: mail_layout_preview
+#: model_terms:ir.ui.view,arch_db:mail_layout_preview.email_templates_list
+msgid "Load it"
+msgstr "Завантажити"
+
+#. module: mail_layout_preview
+#: model_terms:ir.ui.view,arch_db:mail_layout_preview.email_templates_list
+msgid "View in backend"
+msgstr "Переглянути в бекенді"

@@ -37,3 +37,28 @@ msgstr "Макет"
 #: model:ir.model.fields,field_description:mail_layout_force.field_email_layout_mapping__model_ids
 msgid "Models"
 msgstr "Моделі"
+
+#. module: mail_layout_force
+#: model:ir.model.fields,field_description:mail_layout_force.field_mail_template__force_email_layout_id
+msgid "Force Layout"
+msgstr "Примусовий макет"
+
+#. module: mail_layout_force
+#: model:ir.model.fields,field_description:mail_layout_force.field_email_layout_mapping__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: mail_layout_force
+#: model:ir.model.fields,field_description:mail_layout_force.field_email_layout_mapping__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: mail_layout_force
+#: model_terms:ir.ui.view,arch_db:mail_layout_force.view_ir_ui_view_form_inherit
+msgid "Layout Mapping"
+msgstr "Зіставлення макетів"
+
+#. module: mail_layout_force
+#: model:ir.model.fields,field_description:mail_layout_force.field_ir_ui_view__layout_mapping_line_ids
+msgid "Layout Mapping Line"
+msgstr "Рядок зіставлення макета"

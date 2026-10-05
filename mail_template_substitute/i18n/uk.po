@@ -42,3 +42,24 @@ msgstr "Модель"
 #: model:ir.model.fields,field_description:mail_template_substitute.field_mail_template_substitution_rule__sequence
 msgid "Sequence"
 msgstr "Послідовність"
+
+#. module: mail_template_substitute
+#: model:ir.model.fields,field_description:mail_template_substitute.field_mail_template_substitution_rule__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: mail_template_substitute
+#: model:ir.model.fields,field_description:mail_template_substitute.field_mail_template_substitution_rule__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: mail_template_substitute
+#: model:ir.model.fields,field_description:mail_template_substitute.field_mail_template_substitution_rule__mail_template_id
+msgid "Mail Template"
+msgstr "Шаблон листа"
+
+#. module: mail_template_substitute
+#: model:ir.model.fields,field_description:mail_template_substitute.field_mail_template__mail_template_substitution_rule_ids
+#: model_terms:ir.ui.view,arch_db:mail_template_substitute.email_template_form
+msgid "Substitution Rules"
+msgstr "Правила заміни"

@@ -18,3 +18,9 @@ msgstr ""
 #: code:addons/mail_partner_forwarding/tests/test_mail_forwarding.py:0
 msgid "Test"
 msgstr "Тест"
+
+#. module: mail_partner_forwarding
+#: model:ir.model.fields,field_description:mail_partner_forwarding.field_res_partner__forwarding_partner_id
+#: model:ir.model.fields,field_description:mail_partner_forwarding.field_res_users__forwarding_partner_id
+msgid "Forwarding Partner"
+msgstr "Контрагент для пересилання"

@@ -67,7 +67,7 @@ msgstr "Тип відмови доставки"
 #. module: mail_tracking
 #: model:ir.model.fields.selection,name:mail_tracking.selection__mail_tracking_email__state__bounced
 msgid "Bounced"
-msgstr ""
+msgstr "Повернено"
 
 #. module: mail_tracking
 #. odoo-javascript
@@ -81,12 +81,12 @@ msgstr "Копія"
 #. module: mail_tracking
 #: model_terms:ir.ui.view,arch_db:mail_tracking.view_mail_tracking_event_search
 msgid "Click"
-msgstr ""
+msgstr "Натиснути"
 
 #. module: mail_tracking
 #: model:ir.model.fields.selection,name:mail_tracking.selection__mail_tracking_event__event_type__click
 msgid "Clicked"
-msgstr ""
+msgstr "Натиснуто"
 
 #. module: mail_tracking
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_tracking_event__url
@@ -138,13 +138,13 @@ msgstr "Дата"
 #. module: mail_tracking
 #: model:ir.model.fields.selection,name:mail_tracking.selection__mail_tracking_event__event_type__deferral
 msgid "Deferral"
-msgstr ""
+msgstr "Відстрочка"
 
 #. module: mail_tracking
 #: model:ir.model.fields.selection,name:mail_tracking.selection__mail_tracking_email__state__deferred
 #: model_terms:ir.ui.view,arch_db:mail_tracking.view_mail_tracking_email_search
 msgid "Deferred"
-msgstr ""
+msgstr "Відкладено"
 
 #. module: mail_tracking
 #. odoo-python
@@ -154,7 +154,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail_tracking.view_mail_tracking_email_search
 #: model_terms:ir.ui.view,arch_db:mail_tracking.view_mail_tracking_event_search
 msgid "Delivered"
-msgstr ""
+msgstr "Доставлено"
 
 #. module: mail_tracking
 #. odoo-javascript
@@ -196,7 +196,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_tracking.field_res_partner__email_bounced
 #: model:ir.model.fields,field_description:mail_tracking.field_res_users__email_bounced
 msgid "Email Bounced"
-msgstr ""
+msgstr "Лист повернено"
 
 #. module: mail_tracking
 #: model:ir.model,name:mail_tracking.model_mail_alias_domain
@@ -217,7 +217,7 @@ msgstr ""
 #. module: mail_tracking
 #: model_terms:ir.ui.view,arch_db:mail_tracking.view_res_partner_filter
 msgid "Email bounced"
-msgstr ""
+msgstr "Лист повернено"
 
 #. module: mail_tracking
 #: model:ir.model,name:mail_tracking.model_mail_resend_message
@@ -236,12 +236,12 @@ msgstr "Помилка"
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_tracking_email__error_description
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_tracking_event__error_description
 msgid "Error Description"
-msgstr ""
+msgstr "Опис помилки"
 
 #. module: mail_tracking
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_tracking_event__error_details
 msgid "Error Details"
-msgstr ""
+msgstr "Деталі помилки"
 
 #. module: mail_tracking
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_tracking_email__error_smtp_server
@@ -304,7 +304,7 @@ msgstr "Невдалі"
 #: model:ir.model.fields,field_description:mail_tracking.field_res_partner_bank__failed_message_ids
 #: model:ir.model.fields,field_description:mail_tracking.field_res_users__failed_message_ids
 msgid "Failed Messages"
-msgstr ""
+msgstr "Невдалі повідомлення"
 
 #. module: mail_tracking
 #. odoo-javascript
@@ -341,12 +341,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail_tracking.view_mail_tracking_email_search
 #: model_terms:ir.ui.view,arch_db:mail_tracking.view_mail_tracking_event_search
 msgid "Group By"
-msgstr ""
+msgstr "Групувати за"
 
 #. module: mail_tracking
 #: model:ir.model.fields.selection,name:mail_tracking.selection__mail_tracking_event__event_type__hard_bounce
 msgid "Hard bounce"
-msgstr ""
+msgstr "Жорстке повернення листа"
 
 #. module: mail_tracking
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_tracking_email__id
@@ -366,18 +366,20 @@ msgid ""
 "If set as positive integer enables the deletion of old mail tracking records"
 " to reduce the database size."
 msgstr ""
+"Додатне ціле значення дозволяє видаляти старі записи відстеження пошти для "
+"зменшення розміру бази даних."
 
 #. module: mail_tracking
 #. odoo-javascript
 #: code:addons/mail_tracking/static/src/components/failed_message/failed_message.xml:0
 msgid "Info"
-msgstr ""
+msgstr "Інформація"
 
 #. module: mail_tracking
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_mail__is_failed_message
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_message__is_failed_message
 msgid "Is Failed Message"
-msgstr ""
+msgstr "Є невдалим повідомленням"
 
 #. module: mail_tracking
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_tracking_event__mobile
@@ -399,7 +401,7 @@ msgstr "Останнє оновлення"
 #. module: mail_tracking
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_tracking_email__mail_message_id
 msgid "Mail Message"
-msgstr ""
+msgstr "Поштове повідомлення"
 
 #. module: mail_tracking
 #: model:ir.model,name:mail_tracking.model_ir_mail_server
@@ -410,13 +412,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_mail__mail_tracking_needs_action
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_message__mail_tracking_needs_action
 msgid "Mail Tracking Needs Action"
-msgstr ""
+msgstr "Відстеження пошти потребує дії"
 
 #. module: mail_tracking
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_mail__mail_tracking_ids
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_message__mail_tracking_ids
 msgid "Mail Trackings"
-msgstr ""
+msgstr "Відстеження пошти"
 
 #. module: mail_tracking
 #: model:ir.model,name:mail_tracking.model_mail_bounced_mixin
@@ -443,7 +445,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail_tracking.view_mail_tracking_email_form
 #: model_terms:ir.ui.view,arch_db:mail_tracking.view_mail_tracking_event_form
 msgid "MailTracking event"
-msgstr ""
+msgstr "Подія відстеження пошти"
 
 #. module: mail_tracking
 #: model_terms:ir.ui.view,arch_db:mail_tracking.view_mail_tracking_event_search
@@ -459,7 +461,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_tracking.field_res_config_settings__mail_tracking_email_max_age_days
 #: model_terms:ir.ui.view,arch_db:mail_tracking.res_config_settings_view_form
 msgid "Max age in days of mail tracking email records"
-msgstr ""
+msgstr "Максимальний вік записів відстеження пошти в днях"
 
 #. module: mail_tracking
 #: model:ir.model,name:mail_tracking.model_mail_message
@@ -474,7 +476,7 @@ msgstr "Повідомлення"
 #: model_terms:ir.ui.view,arch_db:mail_tracking.view_mail_tracking_email_search
 #: model_terms:ir.ui.view,arch_db:mail_tracking.view_mail_tracking_event_search
 msgid "Month"
-msgstr ""
+msgstr "Місяць"
 
 #. module: mail_tracking
 #: model_terms:ir.ui.view,arch_db:mail_tracking.view_mail_tracking_email_form
@@ -549,13 +551,13 @@ msgstr ""
 #. module: mail_tracking
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_tracking_email__recipient
 msgid "Recipient email"
-msgstr ""
+msgstr "Email одержувача"
 
 #. module: mail_tracking
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_tracking_email__recipient_address
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_tracking_event__recipient_address
 msgid "Recipient email address"
-msgstr ""
+msgstr "Електронна адреса одержувача"
 
 #. module: mail_tracking
 #: model:ir.model.fields.selection,name:mail_tracking.selection__mail_tracking_email__state__rejected
@@ -567,7 +569,7 @@ msgstr "Відхилено"
 #. odoo-javascript
 #: code:addons/mail_tracking/static/src/components/failed_message_review/failed_message_review.xml:0
 msgid "Retry"
-msgstr ""
+msgstr "Повторити"
 
 #. module: mail_tracking
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_tracking_event__smtp_server
@@ -577,7 +579,7 @@ msgstr "SMTP-сервер"
 #. module: mail_tracking
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_tracking_email__token
 msgid "Security Token"
-msgstr ""
+msgstr "Токен безпеки"
 
 #. module: mail_tracking
 #: model_terms:ir.ui.view,arch_db:mail_tracking.view_mail_tracking_email_search
@@ -588,7 +590,7 @@ msgstr "Відправник"
 #. module: mail_tracking
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_tracking_email__sender
 msgid "Sender email"
-msgstr ""
+msgstr "Email відправника"
 
 #. module: mail_tracking
 #. odoo-python
@@ -623,23 +625,23 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_tracking.field_res_config_settings__mail_tracking_show_aliases
 #: model_terms:ir.ui.view,arch_db:mail_tracking.res_config_settings_view_form
 msgid "Show Aliases in Mail Tracking"
-msgstr ""
+msgstr "Показувати псевдоніми у відстеженні пошти"
 
 #. module: mail_tracking
 #: model:ir.model.fields.selection,name:mail_tracking.selection__mail_tracking_event__event_type__soft_bounce
 msgid "Soft bounce"
-msgstr ""
+msgstr "М'яке повернення"
 
 #. module: mail_tracking
 #: model:ir.model.fields.selection,name:mail_tracking.selection__mail_tracking_email__state__soft-bounced
 msgid "Soft bounced"
-msgstr ""
+msgstr "М’яко відхилено"
 
 #. module: mail_tracking
 #: model:ir.model.fields.selection,name:mail_tracking.selection__mail_tracking_email__state__spam
 #: model:ir.model.fields.selection,name:mail_tracking.selection__mail_tracking_event__event_type__spam
 msgid "Spam"
-msgstr ""
+msgstr "Спам"
 
 #. module: mail_tracking
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_tracking_email__state
@@ -705,13 +707,13 @@ msgstr "Кому"
 #. odoo-javascript
 #: code:addons/mail_tracking/static/src/core/message/message.xml:0
 msgid "To:"
-msgstr ""
+msgstr "Кому:"
 
 #. module: mail_tracking
 #: model:ir.model.fields,field_description:mail_tracking.field_res_partner__tracking_emails_count
 #: model:ir.model.fields,field_description:mail_tracking.field_res_users__tracking_emails_count
 msgid "Tracking Emails Count"
-msgstr ""
+msgstr "Кількість листів відстеження"
 
 #. module: mail_tracking
 #: model:ir.ui.menu,name:mail_tracking.menu_mail_tracking_email
@@ -739,13 +741,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_tracking_email__timestamp
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_tracking_event__timestamp
 msgid "UTC timestamp"
-msgstr ""
+msgstr "Мітка часу UTC"
 
 #. module: mail_tracking
 #. odoo-python
 #: code:addons/mail_tracking/models/mail_message.py:0
 msgid "Unknown"
-msgstr ""
+msgstr "Невідомо"
 
 #. module: mail_tracking
 #. odoo-javascript
@@ -756,14 +758,14 @@ msgstr ""
 #. module: mail_tracking
 #: model_terms:ir.ui.view,arch_db:mail_tracking.view_mail_tracking_event_search
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Відписатися"
 
 #. module: mail_tracking
 #: model:ir.model.fields.selection,name:mail_tracking.selection__mail_tracking_email__state__unsub
 #: model:ir.model.fields.selection,name:mail_tracking.selection__mail_tracking_event__event_type__unsub
 #: model_terms:ir.ui.view,arch_db:mail_tracking.view_mail_tracking_email_search
 msgid "Unsubscribed"
-msgstr ""
+msgstr "Відписано"
 
 #. module: mail_tracking
 #: model:ir.model,name:mail_tracking.model_res_users
@@ -785,7 +787,7 @@ msgstr "IP користувача"
 #: model_terms:ir.ui.view,arch_db:mail_tracking.view_mail_tracking_event_search
 #: model_terms:ir.ui.view,arch_db:mail_tracking.view_mail_tracking_event_tree
 msgid "User agent"
-msgstr ""
+msgstr "Агент користувача"
 
 #. module: mail_tracking
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_tracking_event__ua_family
@@ -796,18 +798,18 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_tracking_event__ua_type
 #: model_terms:ir.ui.view,arch_db:mail_tracking.view_mail_tracking_event_search
 msgid "User agent type"
-msgstr ""
+msgstr "Тип User-Agent"
 
 #. module: mail_tracking
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_tracking_event__user_country_id
 msgid "User country"
-msgstr ""
+msgstr "Країна користувача"
 
 #. module: mail_tracking
 #. odoo-python
 #: code:addons/mail_tracking/models/mail_message.py:0
 msgid "Waiting"
-msgstr ""
+msgstr "Очікування"
 
 #. module: mail_tracking
 #. odoo-javascript

@@ -36,3 +36,25 @@ msgstr "Тема"
 #: code:addons/mail_forward/models/mail_message.py:0
 msgid "To"
 msgstr "Кому"
+
+#. module: mail_forward
+#: model:ir.model.fields.selection,name:mail_forward.selection__mail_compose_message__forward_type__another_thread
+msgid "Another thread"
+msgstr "Інша гілка"
+
+#. module: mail_forward
+#: model:ir.model.fields.selection,name:mail_forward.selection__mail_compose_message__forward_type__current_thread
+msgid "Current thread"
+msgstr "Поточна гілка"
+
+#. module: mail_forward
+#. odoo-javascript
+#: code:addons/mail_forward/static/src/components/forward_message/forward_message.xml:0
+#: code:addons/mail_forward/static/src/core/common/message_actions.esm.js:0
+msgid "Forward"
+msgstr "Переслати"
+
+#. module: mail_forward
+#: model:ir.model.fields,field_description:mail_forward.field_mail_compose_message__forward_type
+msgid "Forward Type"
+msgstr "Тип пересилання"

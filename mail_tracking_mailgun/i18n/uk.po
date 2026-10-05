@@ -1,0 +1,59 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 10:13+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: mail_tracking_mailgun
+#: model_terms:ir.ui.view,arch_db:mail_tracking_mailgun.view_partner_form_mailgun
+msgid "Check Mailgun"
+msgstr "Перевірити Mailgun"
+
+#. module: mail_tracking_mailgun
+#: model:ir.model.fields,field_description:mail_tracking_mailgun.field_res_config_settings__mail_tracking_mailgun_api_key
+msgid "Mailgun API key"
+msgstr "API-ключ Mailgun"
+
+#. module: mail_tracking_mailgun
+#: model:ir.model.fields,field_description:mail_tracking_mailgun.field_mail_tracking_event__mailgun_id
+msgid "Mailgun Event ID"
+msgstr "ID події Mailgun"
+
+#. module: mail_tracking_mailgun
+#: model:ir.model.fields,field_description:mail_tracking_mailgun.field_res_config_settings__mail_tracking_mailgun_domain
+msgid "Mailgun domain"
+msgstr "Домен Mailgun"
+
+#. module: mail_tracking_mailgun
+#: model_terms:ir.ui.view,arch_db:mail_tracking_mailgun.res_config_settings_view_form
+msgid "Obtain keys in"
+msgstr "Отримати ключі в"
+
+#. module: mail_tracking_mailgun
+#: model_terms:ir.ui.view,arch_db:mail_tracking_mailgun.res_config_settings_view_form
+msgid "Other settings:"
+msgstr "Інші налаштування:"
+
+#. module: mail_tracking_mailgun
+#: model_terms:ir.ui.view,arch_db:mail_tracking_mailgun.mailgun_manual_check
+msgid "Re-sync Mailgun"
+msgstr "Повторно синхронізувати Mailgun"
+
+#. module: mail_tracking_mailgun
+#: model_terms:ir.ui.view,arch_db:mail_tracking_mailgun.view_partner_form_mailgun
+msgid "Set Bounced"
+msgstr "Позначити як повернене"
+
+#. module: mail_tracking_mailgun
+#: model_terms:ir.ui.view,arch_db:mail_tracking_mailgun.view_partner_form_mailgun
+msgid "Unset Bounced"
+msgstr "Скинути статус відхиленої пошти"

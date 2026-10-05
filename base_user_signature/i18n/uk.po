@@ -18,3 +18,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_user_signature.inherited_res_users_preferences_form
 msgid "Signature"
 msgstr "Підпис"
+
+#. module: base_user_signature
+#: model_terms:ir.ui.view,arch_db:base_user_signature.inherited_res_users_form
+#: model_terms:ir.ui.view,arch_db:base_user_signature.inherited_res_users_preferences_form
+msgid "Clear"
+msgstr "Очистити"

@@ -17,3 +17,32 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_show_follower.field_res_users__show_in_cc
 msgid "Show in CC"
 msgstr "Показувати в копії"
+
+#. module: mail_show_follower
+#: model:ir.model.fields,field_description:mail_show_follower.field_res_config_settings__show_followers_message_preview
+msgid "Message preview"
+msgstr "Попередній перегляд повідомлення"
+
+#. module: mail_show_follower
+#: model:ir.model.fields,field_description:mail_show_follower.field_res_company__show_followers_partner_format
+#: model:ir.model.fields,field_description:mail_show_follower.field_res_config_settings__show_followers_partner_format
+msgid "Partner format"
+msgstr "Формат контрагента"
+
+#. module: mail_show_follower
+#: model:ir.model.fields,field_description:mail_show_follower.field_res_company__show_internal_users_cc
+#: model:ir.model.fields,field_description:mail_show_follower.field_res_config_settings__show_internal_users_cc
+msgid "Show Internal Users CC"
+msgstr "Показувати внутрішніх користувачів у копії"
+
+#. module: mail_show_follower
+#: model:ir.model.fields,field_description:mail_show_follower.field_res_company__show_followers_message_response_warning
+#: model:ir.model.fields,field_description:mail_show_follower.field_res_config_settings__show_followers_message_response_warning
+msgid "Text 'Replies'"
+msgstr "Текст «Відповіді»"
+
+#. module: mail_show_follower
+#: model:ir.model.fields,field_description:mail_show_follower.field_res_company__show_followers_message_sent_to
+#: model:ir.model.fields,field_description:mail_show_follower.field_res_config_settings__show_followers_message_sent_to
+msgid "Text 'Sent to'"
+msgstr "Текст «Надіслано»"

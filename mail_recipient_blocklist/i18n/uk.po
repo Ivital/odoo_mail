@@ -77,3 +77,33 @@ msgstr "Правила блокування одержувачів"
 #: model:ir.model.fields,field_description:mail_recipient_blocklist.field_mail_recipient_block_rule__sequence
 msgid "Sequence"
 msgstr "Послідовність"
+
+#. module: mail_recipient_blocklist
+#: model:ir.model.fields.selection,name:mail_recipient_blocklist.selection__mail_recipient_block_rule__pattern_type__contains
+msgid "Contains"
+msgstr "Містить"
+
+#. module: mail_recipient_blocklist
+#: model:ir.model.fields.selection,name:mail_recipient_blocklist.selection__mail_recipient_block_rule__pattern_type__exact
+msgid "Exact email"
+msgstr "Точна електронна пошта"
+
+#. module: mail_recipient_blocklist
+#: model_terms:ir.ui.view,arch_db:mail_recipient_blocklist.mail_recipient_block_rule_view_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: mail_recipient_blocklist
+#: model:ir.model.fields,field_description:mail_recipient_blocklist.field_mail_recipient_block_rule__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: mail_recipient_blocklist
+#: model:ir.model.fields,field_description:mail_recipient_blocklist.field_mail_recipient_block_rule__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: mail_recipient_blocklist
+#: model:ir.model.fields.selection,name:mail_recipient_blocklist.selection__mail_recipient_block_rule__pattern_type__wildcard
+msgid "Wildcard"
+msgstr "Шаблонний символ"

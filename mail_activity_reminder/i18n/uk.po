@@ -22,3 +22,23 @@ msgstr "Кінцевий термін"
 #: model:ir.model.fields,field_description:mail_activity_reminder.field_mail_activity_type__reminders
 msgid "Reminders"
 msgstr "Нагадування"
+
+#. module: mail_activity_reminder
+#: model:ir.model.fields,field_description:mail_activity_reminder.field_mail_activity__next_reminder
+msgid "Next reminder"
+msgstr "Наступне нагадування"
+
+#. module: mail_activity_reminder
+#: model_terms:ir.ui.view,arch_db:mail_activity_reminder.message_activity_assigned
+msgid "View"
+msgstr "Перегляд"
+
+#. module: mail_activity_reminder
+#: model_terms:ir.ui.view,arch_db:mail_activity_reminder.message_activity_assigned
+msgid "on"
+msgstr "на"
+
+#. module: mail_activity_reminder
+#: model_terms:ir.ui.view,arch_db:mail_activity_reminder.message_activity_assigned
+msgid "to close for"
+msgstr "для закриття"

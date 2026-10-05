@@ -17,3 +17,18 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_template_domain.field_mail_template__filter_model
 msgid "Restrict?"
 msgstr "Обмежити?"
+
+#. module: mail_template_domain
+#: model:ir.model.fields,field_description:mail_template_domain.field_mail_compose_message__domain_template_id
+msgid "Domain Template"
+msgstr "Шаблон домену"
+
+#. module: mail_template_domain
+#: model:ir.model.fields,field_description:mail_template_domain.field_mail_template__filter_domain
+msgid "Restrict domain"
+msgstr "Обмежувальний домен"
+
+#. module: mail_template_domain
+#: model_terms:ir.ui.view,arch_db:mail_template_domain.email_template_form_filter_domain
+msgid "Restrict to"
+msgstr "Обмежити до"

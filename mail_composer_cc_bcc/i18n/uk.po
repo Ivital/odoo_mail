@@ -40,3 +40,21 @@ msgstr "Копія за замовчуванням"
 #: model_terms:ir.ui.view,arch_db:mail_composer_cc_bcc.view_mail_form_inherit
 msgid "Partners"
 msgstr "Партнери"
+
+#. module: mail_composer_cc_bcc
+#: model:ir.model.fields,field_description:mail_composer_cc_bcc.field_mail_mail__recipient_bcc_ids
+#: model:ir.model.fields,field_description:mail_composer_cc_bcc.field_mail_message__recipient_bcc_ids
+msgid "Bcc (Partners)"
+msgstr "Прихована копія (контрагенти)"
+
+#. module: mail_composer_cc_bcc
+#: model:ir.model.fields,field_description:mail_composer_cc_bcc.field_mail_mail__recipient_cc_ids
+#: model:ir.model.fields,field_description:mail_composer_cc_bcc.field_mail_message__recipient_cc_ids
+msgid "Cc (Partners)"
+msgstr "Копія (контрагенти)"
+
+#. module: mail_composer_cc_bcc
+#: model_terms:ir.ui.view,arch_db:mail_composer_cc_bcc.email_template_form_inherit
+#: model_terms:ir.ui.view,arch_db:mail_composer_cc_bcc.view_mail_form_inherit
+msgid "Comma-separated blind carbon copy recipients addresses"
+msgstr "Адреси прихованих одержувачів, розділені комами"

@@ -50,3 +50,18 @@ msgstr "Назва моделі"
 #: model_terms:ir.ui.view,arch_db:mail_autosubscribe.view_mail_autosubscribe_form
 msgid "Name"
 msgstr "Назва"
+
+#. module: mail_autosubscribe
+#: model_terms:ir.ui.view,arch_db:mail_autosubscribe.view_partner_form
+msgid "In copy of"
+msgstr "У копії"
+
+#. module: mail_autosubscribe
+#: model:ir.model.fields,field_description:mail_autosubscribe.field_mail_autosubscribe__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: mail_autosubscribe
+#: model:ir.model.fields,field_description:mail_autosubscribe.field_mail_autosubscribe__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

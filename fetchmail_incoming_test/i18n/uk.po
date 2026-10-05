@@ -65,3 +65,57 @@ msgstr "Тема"
 #: model:ir.model.fields,field_description:fetchmail_incoming_test.field_fetchmail_incoming_test__email_to
 msgid "To"
 msgstr "Кому"
+
+#. module: fetchmail_incoming_test
+#: model_terms:ir.ui.view,arch_db:fetchmail_incoming_test.fetchmail_incoming_test_eml_view_form
+#: model_terms:ir.ui.view,arch_db:fetchmail_incoming_test.fetchmail_incoming_test_view_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: fetchmail_incoming_test
+#: model:ir.model.fields,field_description:fetchmail_incoming_test.field_fetchmail_incoming_test_eml__eml_filename
+msgid "Eml Filename"
+msgstr "Назва EML-файлу"
+
+#. module: fetchmail_incoming_test
+#: model:ir.model.fields,field_description:fetchmail_incoming_test.field_fetchmail_incoming_test__server_id
+#: model:ir.model.fields,field_description:fetchmail_incoming_test.field_fetchmail_incoming_test_eml__server_id
+#: model:ir.model.fields,field_description:fetchmail_incoming_test.field_fetchmail_incoming_test_mixin__server_id
+msgid "Incoming Mail Server"
+msgstr "Сервер вхідної пошти"
+
+#. module: fetchmail_incoming_test
+#: model:ir.model.fields,field_description:fetchmail_incoming_test.field_fetchmail_incoming_test__write_uid
+#: model:ir.model.fields,field_description:fetchmail_incoming_test.field_fetchmail_incoming_test_eml__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: fetchmail_incoming_test
+#: model:ir.model.fields,field_description:fetchmail_incoming_test.field_fetchmail_incoming_test__write_date
+#: model:ir.model.fields,field_description:fetchmail_incoming_test.field_fetchmail_incoming_test_eml__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: fetchmail_incoming_test
+#: model_terms:ir.ui.view,arch_db:fetchmail_incoming_test.fetchmail_incoming_test_eml_view_form
+msgid "Process"
+msgstr "Обробити"
+
+#. module: fetchmail_incoming_test
+#: model:ir.actions.act_window,name:fetchmail_incoming_test.action_fetchmail_incoming_test_eml
+#: model_terms:ir.ui.view,arch_db:fetchmail_incoming_test.fetchmail_incoming_test_eml_view_form
+#: model_terms:ir.ui.view,arch_db:fetchmail_incoming_test.view_email_server_form
+msgid "Replay Email File"
+msgstr "Файл повторного відтворення листа"
+
+#. module: fetchmail_incoming_test
+#: model_terms:ir.ui.view,arch_db:fetchmail_incoming_test.fetchmail_incoming_test_view_form
+msgid "Send"
+msgstr "Надіслати"
+
+#. module: fetchmail_incoming_test
+#: model:ir.actions.act_window,name:fetchmail_incoming_test.action_fetchmail_incoming_test
+#: model_terms:ir.ui.view,arch_db:fetchmail_incoming_test.fetchmail_incoming_test_view_form
+#: model_terms:ir.ui.view,arch_db:fetchmail_incoming_test.view_email_server_form
+msgid "Simulate Incoming Email"
+msgstr "Імітувати вхідний лист"

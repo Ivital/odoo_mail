@@ -102,3 +102,47 @@ msgstr "Користувач"
 #: model:ir.model.fields,field_description:mail_activity_team.field_res_users__activity_team_user_ids
 msgid "test field"
 msgstr "тестове поле"
+
+#. module: mail_activity_team
+#: model:ir.model.fields,field_description:mail_activity_team.field_ir_actions_server__activity_team_id
+#: model:ir.model.fields,field_description:mail_activity_team.field_ir_cron__activity_team_id
+#: model_terms:ir.ui.view,arch_db:mail_activity_team.mail_activity_team_view_form
+msgid "Activity Team"
+msgstr "Команда дій"
+
+#. module: mail_activity_team
+#: model:ir.model.fields,field_description:mail_activity_team.field_mail_activity_type__default_team_id
+msgid "Default Team"
+msgstr "Типова команда"
+
+#. module: mail_activity_team
+#: model:ir.model.fields,field_description:mail_activity_team.field_mail_activity_team__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: mail_activity_team
+#: model:ir.model.fields,field_description:mail_activity_team.field_mail_activity_team__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: mail_activity_team
+#: model_terms:ir.ui.view,arch_db:mail_activity_team.mail_activity_team_view_form
+msgid "Members"
+msgstr "Учасники"
+
+#. module: mail_activity_team
+#. odoo-javascript
+#: code:addons/mail_activity_team/static/src/components/activity_menu_view/activity_menu_view.xml:0
+msgid "My Activities"
+msgstr "Мої дії"
+
+#. module: mail_activity_team
+#: model:ir.model.fields,field_description:mail_activity_team.field_mail_activity_team__notify_members
+msgid "Notify Members"
+msgstr "Повідомити учасників"
+
+#. module: mail_activity_team
+#: model:ir.model.fields,field_description:mail_activity_team.field_mail_activity_plan_template__activity_team_id
+#: model:ir.model.fields,field_description:mail_activity_team.field_mail_activity_schedule__activity_team_id
+msgid "Team assigned to"
+msgstr "Призначена команда"
