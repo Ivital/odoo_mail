@@ -32,3 +32,12 @@ msgstr "Обмежувальний домен"
 #: model_terms:ir.ui.view,arch_db:mail_template_domain.email_template_form_filter_domain
 msgid "Restrict to"
 msgstr "Обмежити до"
+
+#. module: mail_template_domain
+#: model:ir.model.fields,help:mail_template_domain.field_mail_template__filter_domain
+msgid ""
+"If set, this template will only appear in the email composer when the active"
+" record matches this domain."
+msgstr ""
+"Якщо задано, цей шаблон відображатиметься в редакторі листа лише коли "
+"активний запис відповідає цьому домену."

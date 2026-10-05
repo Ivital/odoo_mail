@@ -68,3 +68,8 @@ msgstr "Правила заміни"
 #: model:ir.model.fields,field_description:mail_template_substitute.field_mail_template_substitution_rule__substitution_mail_template_id
 msgid "Substitution Mail Template"
 msgstr "Шаблон листа заміни"
+
+#. module: mail_template_substitute
+#: model:ir.model,name:mail_template_substitute.model_mail_template_substitution_rule
+msgid "Mail Template Substitution Rule"
+msgstr "Правило заміни поштового шаблону"

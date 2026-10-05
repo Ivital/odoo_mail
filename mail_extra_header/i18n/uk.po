@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_extra_header.field_ir_mail_server__extra_headers
 msgid "Extra Headers"
 msgstr "Додаткові заголовки"
+
+#. module: mail_extra_header
+#: model:ir.model.fields,help:mail_extra_header.field_ir_mail_server__extra_headers
+msgid "Python dictionary, e.g. {\"MY-HEADER\": \"test\"}"
+msgstr "Словник Python, напр. {\"MY-HEADER\": \"test\"}"

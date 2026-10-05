@@ -75,3 +75,13 @@ msgstr "Автопідписка на пошту"
 #: model:ir.model.fields,field_description:mail_autosubscribe.field_mail_template__use_autosubscribe_followers
 msgid "Use Autosubscribe Followers"
 msgstr "Використовувати автопідписку підписників"
+
+#. module: mail_autosubscribe
+#: model:ir.model,name:mail_autosubscribe.model_mail_autosubscribe
+msgid "Mail Autosubscribe"
+msgstr "Автопідписка пошти"
+
+#. module: mail_autosubscribe
+#: model:ir.model.constraint,message:mail_autosubscribe.constraint_mail_autosubscribe_model_id_unique
+msgid "There's already a rule for this model"
+msgstr "Для цієї моделі вже існує правило"

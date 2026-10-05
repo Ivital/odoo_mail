@@ -31,3 +31,15 @@ msgid ""
 msgstr ""
 "Коли користувач додає лист у наявний ланцюжок,\n"
 "                            підписники ланцюжка не отримають сповіщення."
+
+#. module: mail_drop_target
+#: model:ir.model.fields,help:mail_drop_target.field_res_config_settings__disable_notify_mail_drop_target
+msgid ""
+"When this setting is set, when a user drops an email into an existing thread"
+" the followers of the thread will not be notified. This sets an "
+"ir.config.parameter mail_drop_target.disable_notify"
+msgstr ""
+"Якщо цей параметр увімкнено, коли користувач перетягує електронний лист до "
+"наявного ланцюжка, підписники цього ланцюжка не отримуватимуть сповіщень. "
+"При цьому встановлюється параметр ir.config.parameter "
+"mail_drop_target.disable_notify"

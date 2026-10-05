@@ -22,3 +22,28 @@ msgstr "Email відправника"
 #: model:ir.model.fields,field_description:mail_outbound_static.field_ir_mail_server__domain_whitelist
 msgid "Domain Whitelist"
 msgstr "Білий список доменів"
+
+#. module: mail_outbound_static
+#: model:ir.model.fields,help:mail_outbound_static.field_ir_mail_server__domain_whitelist
+msgid ""
+"Allowed Domains list separated by commas. If there is not given SMTP server "
+"it will let us to search the proper mail server to be used to sent the "
+"messages where the message 'From' email domain match with the domain "
+"whitelist."
+msgstr ""
+"Список дозволених доменів, розділених комами. Якщо SMTP-сервер не задано, "
+"система шукатиме відповідний поштовий сервер для надсилання повідомлень, у "
+"яких домен адреси 'From' збігається з білим списком доменів."
+
+#. module: mail_outbound_static
+#: model:ir.model.fields,help:mail_outbound_static.field_ir_mail_server__smtp_from
+msgid ""
+"Set this in order to email from a specific address. If the original "
+"message's 'From' does not match with the domain whitelist then it is "
+"replaced with this value. If does match with the domain whitelist then the "
+"original message's 'From' will not change"
+msgstr ""
+"Установіть це, щоб надсилати електронну пошту з певної адреси. Якщо поле "
+"'From' вихідного повідомлення не відповідає білому списку доменів, його буде"
+" замінено цим значенням. Якщо відповідає білому списку доменів, вихідне "
+"значення 'From' не змінюватиметься."

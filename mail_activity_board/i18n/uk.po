@@ -43,3 +43,8 @@ msgstr "Походження"
 #: model:ir.model.fields,field_description:mail_activity_board.field_mail_activity__calendar_event_id_start
 msgid "Start"
 msgstr "Почати"
+
+#. module: mail_activity_board
+#: model:ir.model.fields,help:mail_activity_board.field_mail_activity__calendar_event_id_start
+msgid "Start date of an event, without time for full days events"
+msgstr "Дата початку події без часу для подій на весь день"

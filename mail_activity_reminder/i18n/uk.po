@@ -62,3 +62,14 @@ msgstr "Поштова активність: нагадування"
 #: model_terms:ir.ui.view,arch_db:mail_activity_reminder.message_activity_assigned
 msgid "assigned you an activity"
 msgstr "призначив(ла) вам активність"
+
+#. module: mail_activity_reminder
+#: model:ir.model.fields,help:mail_activity_reminder.field_mail_activity_type__reminders
+msgid ""
+"A non-digit-separated list of offsets (in days) when reminders should be "
+"fired: e.g. 0 means \"on the deadline day\" while 5 means \"5 calendar days "
+"before the deadline\"."
+msgstr ""
+"Список зміщень у днях, розділений нецифровими символами, коли мають "
+"спрацьовувати нагадування: наприклад, 0 означає «у день крайнього терміну», "
+"а 5 — «за 5 календарних днів до крайнього терміну»."

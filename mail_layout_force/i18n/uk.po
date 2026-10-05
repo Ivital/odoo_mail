@@ -67,3 +67,23 @@ msgstr "Рядок зіставлення макета"
 #: model:ir.model.fields,field_description:mail_layout_force.field_email_layout_mapping__substitute_layout_id
 msgid "Substitute Layout"
 msgstr "Замінний макет"
+
+#. module: mail_layout_force
+#: model:ir.model,name:mail_layout_force.model_email_layout_mapping
+msgid "Email Layout Mapping"
+msgstr "Зіставлення макета email"
+
+#. module: mail_layout_force
+#: model:ir.model.fields,help:mail_layout_force.field_mail_template__force_email_layout_id
+msgid "Force a mail layout for this template."
+msgstr "Примусово використовувати поштовий макет для цього шаблону."
+
+#. module: mail_layout_force
+#: model:ir.model.fields,help:mail_layout_force.field_email_layout_mapping__substitute_layout_id
+msgid "Select a target layout."
+msgstr "Виберіть цільовий макет."
+
+#. module: mail_layout_force
+#: model:ir.model.fields,help:mail_layout_force.field_email_layout_mapping__model_ids
+msgid "Select models that the swapping applies to."
+msgstr "Виберіть моделі, до яких застосовується заміна."

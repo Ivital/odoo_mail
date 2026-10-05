@@ -58,3 +58,18 @@ msgstr "Копія (контрагенти)"
 #: model_terms:ir.ui.view,arch_db:mail_composer_cc_bcc.view_mail_form_inherit
 msgid "Comma-separated blind carbon copy recipients addresses"
 msgstr "Адреси прихованих одержувачів, розділені комами"
+
+#. module: mail_composer_cc_bcc
+#: model:ir.model.fields,help:mail_composer_cc_bcc.field_mail_template_preview__email_bcc
+msgid "Blind Carbon copy recipients"
+msgstr "Одержувачі прихованої копії"
+
+#. module: mail_composer_cc_bcc
+#: model:ir.model.fields,help:mail_composer_cc_bcc.field_mail_mail__email_bcc
+msgid "Blind Cc message recipients"
+msgstr "Одержувачі прихованої копії"
+
+#. module: mail_composer_cc_bcc
+#: model:ir.model.fields,help:mail_composer_cc_bcc.field_mail_template__email_bcc
+msgid "Blind cc recipients (placeholders may be used here)"
+msgstr "Одержувачі прихованої копії (тут можна використовувати placeholders)"

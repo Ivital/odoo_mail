@@ -117,3 +117,53 @@ msgstr "Скасувати реєстрацію webhooks Mailgun"
 #: model_terms:ir.ui.view,arch_db:mail_tracking_mailgun.res_config_settings_view_form
 msgid "enhances Odoo's mail tracking features."
 msgstr "розширює можливості відстеження пошти Odoo."
+
+#. module: mail_tracking_mailgun
+#: model:ir.model.fields,help:mail_tracking_mailgun.field_res_config_settings__mail_tracking_mailgun_enabled
+msgid "Enable to enhance mail tracking with Mailgun"
+msgstr "Увімкнути розширене відстеження пошти через Mailgun"
+
+#. module: mail_tracking_mailgun
+#: model:ir.model.fields,help:mail_tracking_mailgun.field_res_config_settings__mail_tracking_mailgun_validation_key
+msgid "Key used to validate emails."
+msgstr "Ключ для перевірки email."
+
+#. module: mail_tracking_mailgun
+#: model:ir.model.fields,help:mail_tracking_mailgun.field_res_config_settings__mail_tracking_mailgun_webhooks_domain
+msgid "Leave empty to use the base Odoo URL."
+msgstr "Залиште порожнім, щоб використовувати базову URL-адресу Odoo."
+
+#. module: mail_tracking_mailgun
+#: model:ir.model.fields,help:mail_tracking_mailgun.field_res_config_settings__mail_tracking_mailgun_domain
+msgid "Leave empty to use the catch-all domain."
+msgstr "Залиште порожнім, щоб використовувати catch-all домен."
+
+#. module: mail_tracking_mailgun
+#: model:ir.model.fields,help:mail_tracking_mailgun.field_res_config_settings__mail_tracking_mailgun_api_url
+msgid ""
+"Leave this empty if your API endpoint is the default "
+"(https://api.mailgun.net/)."
+msgstr ""
+"Залиште порожнім, якщо ваша кінцева точка API типова "
+"(https://api.mailgun.net/)."
+
+#. module: mail_tracking_mailgun
+#: model:ir.model.constraint,message:mail_tracking_mailgun.constraint_mail_tracking_event_mailgun_id_unique
+msgid "Mailgun event IDs must be unique!"
+msgstr "ID подій Mailgun мають бути унікальними!"
+
+#. module: mail_tracking_mailgun
+#: model:ir.model.fields,help:mail_tracking_mailgun.field_res_config_settings__mail_tracking_mailgun_api_key
+msgid "Secret API key used to authenticate with Mailgun."
+msgstr "Секретний API-ключ для автентифікації в Mailgun."
+
+#. module: mail_tracking_mailgun
+#: model:ir.model.fields,help:mail_tracking_mailgun.field_res_config_settings__mail_tracking_mailgun_webhook_signing_key
+msgid "Secret key used to validate incoming webhooks payload."
+msgstr "Секретний ключ для перевірки payload вхідних webhook-запитів."
+
+#. module: mail_tracking_mailgun
+#. odoo-python
+#: code:addons/mail_tracking_mailgun/models/res_partner.py:0
+msgid "unknown"
+msgstr "невідомо"

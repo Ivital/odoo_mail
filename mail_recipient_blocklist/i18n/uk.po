@@ -131,3 +131,8 @@ msgstr "Правило блокування одержувача"
 #: model:ir.model.fields.selection,name:mail_recipient_blocklist.selection__mail_recipient_block_rule__pattern_type__regex
 msgid "Regular expression"
 msgstr "Регулярний вираз"
+
+#. module: mail_recipient_blocklist
+#: model:ir.model,name:mail_recipient_blocklist.model_mail_recipient_block_rule
+msgid "Mail Recipient Block Rule"
+msgstr "Правило блокування одержувачів пошти"

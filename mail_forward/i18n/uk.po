@@ -73,3 +73,22 @@ msgstr "Підписники для сповіщення"
 #: model:ir.model.fields,field_description:mail_forward.field_mail_compose_message__forward_thread
 msgid "Thread to forward"
 msgstr "Ланцюжок для пересилання"
+
+#. module: mail_forward
+#: model:ir.model.fields,help:mail_forward.field_ir_model__enable_forward_to
+msgid "Enable forwarding messages to records of this model."
+msgstr "Увімкнути пересилання повідомлень до записів цієї моделі."
+
+#. module: mail_forward
+#. odoo-javascript
+#. odoo-python
+#: code:addons/mail_forward/models/mail_message.py:0
+#: code:addons/mail_forward/static/src/components/forward_message/forward_message.xml:0
+msgid "Forward Message"
+msgstr "Переслати повідомлення"
+
+#. module: mail_forward
+#. odoo-python
+#: code:addons/mail_forward/wizards/mail_compose_message.py:0
+msgid "Fwd:"
+msgstr "Пересл.:"

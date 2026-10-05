@@ -18,3 +18,22 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_activity_plan_domain.field_mail_activity_plan_template__domain
 msgid "Domain"
 msgstr "Домен"
+
+#. module: mail_activity_plan_domain
+#: model:ir.model.fields,help:mail_activity_plan_domain.field_mail_activity_plan_template__domain
+msgid ""
+"Domain to filter the records for which this activity will be scheduled. "
+"Leave empty or use '[]' to always schedule this activity."
+msgstr ""
+"Домен для фільтрації записів, для яких плануватиметься ця дія. Залиште "
+"порожнім або використовуйте '[]', щоб планувати завжди."
+
+#. module: mail_activity_plan_domain
+#: model:ir.model.fields,help:mail_activity_plan_domain.field_mail_activity_plan__domain
+msgid ""
+"Domain to filter the records on which this plan is applicable. Leave empty "
+"or use '[]' to apply to all records of the target model."
+msgstr ""
+"Домен для фільтрації записів, до яких застосовується цей план. Залиште "
+"порожнім або використайте '[]', щоб застосувати до всіх записів цільової "
+"моделі."

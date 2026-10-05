@@ -100,3 +100,31 @@ msgstr "Шаблон теми"
 #: model:ir.model.fields,field_description:mail_notification_custom_subject.field_mail_message_custom_subject__subject_to_replace
 msgid "Subject To Replace"
 msgstr "Тема для заміни"
+
+#. module: mail_notification_custom_subject
+#: model:ir.model,name:mail_notification_custom_subject.model_mail_message_custom_subject
+msgid "Mail Message Custom Subject"
+msgstr "Власна тема поштового повідомлення"
+
+#. module: mail_notification_custom_subject
+#: model:ir.model.fields,help:mail_notification_custom_subject.field_mail_message_custom_subject__model_id
+msgid "Model where this template applies"
+msgstr "Модель, до якої застосовується цей шаблон"
+
+#. module: mail_notification_custom_subject
+#: model:ir.model.fields,help:mail_notification_custom_subject.field_mail_message_custom_subject__subject_to_replace
+msgid ""
+"The text that will be replaced. You can use placeholders. E.g.: {{ "
+"object.company_id.name }}"
+msgstr ""
+"Текст, який буде замінено. Можна використовувати заповнювачі. Напр.: {{ "
+"object.company_id.name }}"
+
+#. module: mail_notification_custom_subject
+#: model:ir.model.fields,help:mail_notification_custom_subject.field_mail_message_custom_subject__position
+msgid ""
+"Whether to replace completely, partially, append at beginning or append at "
+"end to other templates that apply to a given context"
+msgstr ""
+"Чи повністю або частково замінювати інші шаблони, додавати на початок чи в "
+"кінець шаблонів, що застосовуються до контексту"

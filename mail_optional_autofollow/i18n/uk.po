@@ -17,3 +17,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_optional_autofollow.field_mail_compose_message__autofollow_recipients
 msgid "Make recipients followers"
 msgstr "Зробити одержувачів підписниками"
+
+#. module: mail_optional_autofollow
+#: model:ir.model.fields,help:mail_optional_autofollow.field_mail_compose_message__autofollow_recipients
+msgid ""
+"if checked, the additional recipients will be added as        followers on "
+"the related object"
+msgstr ""
+"якщо позначено, додаткові одержувачі будуть додані як        підписники "
+"пов’язаного об’єкта"

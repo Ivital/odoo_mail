@@ -35,7 +35,7 @@ msgstr ""
 #. module: mail_tracking
 #: model:ir.model.fields,help:mail_tracking.field_mail_message__email_cc
 msgid "Additional recipients that receive a \"Carbon Copy\" of the e-mail"
-msgstr ""
+msgstr "Додаткові одержувачі, які отримують копію електронного листа (CC)"
 
 #. module: mail_tracking
 #. odoo-python
@@ -423,7 +423,7 @@ msgstr "Відстеження пошти"
 #. module: mail_tracking
 #: model:ir.model,name:mail_tracking.model_mail_bounced_mixin
 msgid "Mail bounced mixin"
-msgstr ""
+msgstr "Міксин повернутих листів"
 
 #. module: mail_tracking
 #: model:ir.model,name:mail_tracking.model_mail_tracking_email
@@ -534,7 +534,7 @@ msgstr "Партнер"
 #. module: mail_tracking
 #: model:ir.model.fields,help:mail_tracking.field_mail_message__email_to
 msgid "Raw TO recipients"
-msgstr ""
+msgstr "Необроблені одержувачі «Кому»"
 
 #. module: mail_tracking
 #: model:ir.model.fields,field_description:mail_tracking.field_mail_tracking_event__recipient
@@ -672,6 +672,8 @@ msgstr ""
 #: model:ir.model.fields,help:mail_tracking.field_mail_message__mail_tracking_needs_action
 msgid "The message tracking will be considered to filter tracking issues"
 msgstr ""
+"Відстеження повідомлень враховуватиметься під час фільтрації проблем "
+"відстеження"
 
 #. module: mail_tracking
 #. odoo-python

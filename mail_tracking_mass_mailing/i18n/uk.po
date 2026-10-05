@@ -89,3 +89,8 @@ msgstr "Листи відстеження пошти"
 #: model:ir.actions.act_window,name:mail_tracking_mass_mailing.action_view_mail_tracking_event
 msgid "Mail tracking events"
 msgstr "Події відстеження пошти"
+
+#. module: mail_tracking_mass_mailing
+#: model:ir.model,name:mail_tracking_mass_mailing.model_mail_tracking_email
+msgid "MailTracking email"
+msgstr "Email MailTracking"

@@ -96,3 +96,22 @@ msgstr "Показувати внутрішніх користувачів у CC
 #: model_terms:ir.ui.view,arch_db:mail_show_follower.res_config_settings_view_form
 msgid "This message has been sent to"
 msgstr "Це повідомлення надіслано"
+
+#. module: mail_show_follower
+#: model:ir.model.fields,help:mail_show_follower.field_res_company__show_followers_partner_format
+#: model:ir.model.fields,help:mail_show_follower.field_res_config_settings__show_followers_partner_format
+msgid ""
+"Supported parameters:\n"
+"%(partner_name)s = Partner Name\n"
+"%(partner_email)s = Partner Email\n"
+"%(partner_email_domain)s = Partner Email Domain"
+msgstr ""
+"Підтримувані параметри:\n"
+"%(partner_name)s = Назва партнера\n"
+"%(partner_email)s = Email партнера\n"
+"%(partner_email_domain)s = Домен email партнера"
+
+#. module: mail_show_follower
+#: model:ir.model.fields,help:mail_show_follower.field_res_config_settings__show_followers_models_to_exclude
+msgid "Tecnichal model names separated by coma"
+msgstr "Технічні назви моделей, розділені комами"

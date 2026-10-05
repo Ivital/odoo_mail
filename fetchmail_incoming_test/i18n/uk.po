@@ -126,3 +126,27 @@ msgstr "Імітувати вхідний лист"
 #: model:ir.model.fields,help:fetchmail_incoming_test.field_fetchmail_incoming_test_mixin__server_id
 msgid "Incoming mail server this wizard was opened from."
 msgstr "Сервер вхідної пошти, з якого було відкрито цей майстер."
+
+#. module: fetchmail_incoming_test
+#: model:ir.model.fields,help:fetchmail_incoming_test.field_fetchmail_incoming_test_eml__eml_file
+msgid "Raw message, as exported by a mail client. Usually a .eml file."
+msgstr ""
+"Необроблене повідомлення, експортоване поштовим клієнтом. Зазвичай файл "
+".eml."
+
+#. module: fetchmail_incoming_test
+#: model:ir.model.fields,help:fetchmail_incoming_test.field_fetchmail_incoming_test__email_to
+msgid "Recipient address, typically the alias routing to the target model."
+msgstr ""
+"Адреса одержувача, зазвичай псевдонім, що маршрутизує до цільової моделі."
+
+#. module: fetchmail_incoming_test
+#: model:ir.model,name:fetchmail_incoming_test.model_fetchmail_incoming_test
+#: model:ir.model,name:fetchmail_incoming_test.model_fetchmail_incoming_test_mixin
+msgid "Simulate an Incoming Email"
+msgstr "Імітувати вхідний електронний лист"
+
+#. module: fetchmail_incoming_test
+#: model:ir.model,name:fetchmail_incoming_test.model_fetchmail_incoming_test_eml
+msgid "Simulate an Incoming Email from a File"
+msgstr "Імітувати вхідний email із файлу"
