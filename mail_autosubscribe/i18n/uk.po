@@ -65,3 +65,13 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:mail_autosubscribe.field_mail_autosubscribe__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: mail_autosubscribe
+#: model:ir.actions.act_window,name:mail_autosubscribe.action_mail_autosubscribe
+msgid "Mail Auto Subscribe"
+msgstr "Автопідписка на пошту"
+
+#. module: mail_autosubscribe
+#: model:ir.model.fields,field_description:mail_autosubscribe.field_mail_template__use_autosubscribe_followers
+msgid "Use Autosubscribe Followers"
+msgstr "Використовувати автопідписку підписників"

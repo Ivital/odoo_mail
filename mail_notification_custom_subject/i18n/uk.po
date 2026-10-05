@@ -85,3 +85,18 @@ msgstr "Тема (тут можна використовувати заповн�
 #: model:ir.model.fields,field_description:mail_notification_custom_subject.field_mail_message_custom_subject__name
 msgid "Template Name"
 msgstr "Назва шаблону"
+
+#. module: mail_notification_custom_subject
+#: model:ir.model.fields.selection,name:mail_notification_custom_subject.selection__mail_message_custom_subject__position__inside_replace
+msgid "Partial Replacement"
+msgstr "Часткова заміна"
+
+#. module: mail_notification_custom_subject
+#: model:ir.model.fields,field_description:mail_notification_custom_subject.field_mail_message_custom_subject__subject_template
+msgid "Subject Template"
+msgstr "Шаблон теми"
+
+#. module: mail_notification_custom_subject
+#: model:ir.model.fields,field_description:mail_notification_custom_subject.field_mail_message_custom_subject__subject_to_replace
+msgid "Subject To Replace"
+msgstr "Тема для заміни"

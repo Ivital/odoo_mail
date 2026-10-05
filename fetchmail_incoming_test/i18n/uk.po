@@ -119,3 +119,10 @@ msgstr "Надіслати"
 #: model_terms:ir.ui.view,arch_db:fetchmail_incoming_test.view_email_server_form
 msgid "Simulate Incoming Email"
 msgstr "Імітувати вхідний лист"
+
+#. module: fetchmail_incoming_test
+#: model:ir.model.fields,help:fetchmail_incoming_test.field_fetchmail_incoming_test__server_id
+#: model:ir.model.fields,help:fetchmail_incoming_test.field_fetchmail_incoming_test_eml__server_id
+#: model:ir.model.fields,help:fetchmail_incoming_test.field_fetchmail_incoming_test_mixin__server_id
+msgid "Incoming mail server this wizard was opened from."
+msgstr "Сервер вхідної пошти, з якого було відкрито цей майстер."

@@ -146,3 +146,28 @@ msgstr "Повідомити учасників"
 #: model:ir.model.fields,field_description:mail_activity_team.field_mail_activity_schedule__activity_team_id
 msgid "Team assigned to"
 msgstr "Призначена команда"
+
+#. module: mail_activity_team
+#: model_terms:ir.ui.view,arch_db:mail_activity_team.mail_activity_view_kanban_open_target
+msgid "<span class=\"fw-bold\">Team: </span>"
+msgstr "<span class=\"fw-bold\">Команда: </span>"
+
+#. module: mail_activity_team
+#: model:ir.model.fields,field_description:mail_activity_team.field_mail_activity_plan_template__activity_team_required
+msgid "Activity Team Required"
+msgstr "Команда активності обов’язкова"
+
+#. module: mail_activity_team
+#: model_terms:ir.ui.view,arch_db:mail_activity_team.mail_activity_team_view_form
+msgid "Assign to missing activities"
+msgstr "Призначити відсутні активності"
+
+#. module: mail_activity_team
+#: model:ir.model.fields,field_description:mail_activity_team.field_mail_activity_team__count_missing_activities
+msgid "Missing Activities"
+msgstr "Відсутні активності"
+
+#. module: mail_activity_team
+#: model_terms:ir.ui.view,arch_db:mail_activity_team.mail_activity_view_search
+msgid "My Team Activities"
+msgstr "Активності моєї команди"

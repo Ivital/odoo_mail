@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:outgoing_email_by_model.field_ir_model__outgoing_email
 msgid "Outgoing Email"
 msgstr "Вихідна пошта"
+
+#. module: outgoing_email_by_model
+#: model:ir.model.fields,field_description:outgoing_email_by_model.field_ir_model__outgoing_mailserver_id
+msgid "Outgoing Mailserver"
+msgstr "Сервер вихідної пошти"

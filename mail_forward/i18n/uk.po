@@ -58,3 +58,18 @@ msgstr "Переслати"
 #: model:ir.model.fields,field_description:mail_forward.field_mail_compose_message__forward_type
 msgid "Forward Type"
 msgstr "Тип пересилання"
+
+#. module: mail_forward
+#: model:ir.model.fields,field_description:mail_forward.field_ir_model__enable_forward_to
+msgid "Enable Forward To"
+msgstr "Увімкнути пересилання"
+
+#. module: mail_forward
+#: model_terms:ir.ui.view,arch_db:mail_forward.mail_compose_message_forward_form
+msgid "Followers to notify"
+msgstr "Підписники для сповіщення"
+
+#. module: mail_forward
+#: model:ir.model.fields,field_description:mail_forward.field_mail_compose_message__forward_thread
+msgid "Thread to forward"
+msgstr "Ланцюжок для пересилання"

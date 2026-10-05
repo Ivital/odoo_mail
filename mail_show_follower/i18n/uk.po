@@ -46,3 +46,53 @@ msgstr "Текст «Відповіді»"
 #: model:ir.model.fields,field_description:mail_show_follower.field_res_config_settings__show_followers_message_sent_to
 msgid "Text 'Sent to'"
 msgstr "Текст «Надіслано»"
+
+#. module: mail_show_follower
+#: model_terms:ir.ui.view,arch_db:mail_show_follower.res_config_settings_view_form
+msgid "%(partner_email)s = Partner Email"
+msgstr "%(partner_email)s = Email контрагента"
+
+#. module: mail_show_follower
+#: model_terms:ir.ui.view,arch_db:mail_show_follower.res_config_settings_view_form
+msgid "%(partner_email_domain)s = Partner Email Domain"
+msgstr "%(partner_email_domain)s = домен email контрагента"
+
+#. module: mail_show_follower
+#: model_terms:ir.ui.view,arch_db:mail_show_follower.res_config_settings_view_form
+msgid "%(partner_name)s = Partner Name"
+msgstr "%(partner_name)s = Назва контрагента"
+
+#. module: mail_show_follower
+#: model_terms:ir.ui.view,arch_db:mail_show_follower.res_config_settings_view_form
+msgid "<strong>Supported parameters:</strong>"
+msgstr "<strong>Підтримувані параметри:</strong>"
+
+#. module: mail_show_follower
+#: model_terms:ir.ui.view,arch_db:mail_show_follower.res_config_settings_view_form
+msgid "Models to exclude"
+msgstr "Моделі для виключення"
+
+#. module: mail_show_follower
+#: model_terms:ir.ui.view,arch_db:mail_show_follower.res_config_settings_view_form
+msgid "Notice: Replies to this email will be sent to all recipients."
+msgstr "Увага: відповіді на цей лист буде надіслано всім одержувачам."
+
+#. module: mail_show_follower
+#: model:ir.model.fields,field_description:mail_show_follower.field_res_config_settings__show_followers_models_to_exclude
+msgid "Show Followers Models To Exclude"
+msgstr "Показувати моделі підписників для виключення"
+
+#. module: mail_show_follower
+#: model_terms:ir.ui.view,arch_db:mail_show_follower.res_config_settings_view_form
+msgid "Show Followers on mails"
+msgstr "Показувати підписників у листах"
+
+#. module: mail_show_follower
+#: model_terms:ir.ui.view,arch_db:mail_show_follower.res_config_settings_view_form
+msgid "Show Internal Users on CC"
+msgstr "Показувати внутрішніх користувачів у CC"
+
+#. module: mail_show_follower
+#: model_terms:ir.ui.view,arch_db:mail_show_follower.res_config_settings_view_form
+msgid "This message has been sent to"
+msgstr "Це повідомлення надіслано"

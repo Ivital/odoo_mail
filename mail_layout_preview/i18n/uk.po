@@ -32,3 +32,47 @@ msgstr "Завантажити"
 #: model_terms:ir.ui.view,arch_db:mail_layout_preview.email_templates_list
 msgid "View in backend"
 msgstr "Переглянути в бекенді"
+
+#. module: mail_layout_preview
+#: model_terms:ir.ui.view,arch_db:mail_layout_preview.email_templates_list
+msgid "<strong>Link:</strong>"
+msgstr "<strong>Посилання:</strong>"
+
+#. module: mail_layout_preview
+#: model_terms:ir.ui.view,arch_db:mail_layout_preview.email_templates_list
+msgid "<strong>Name:</strong>"
+msgstr "<strong>Назва:</strong>"
+
+#. module: mail_layout_preview
+#: model_terms:ir.ui.view,arch_db:mail_layout_preview.email_templates_list
+msgid "Email templates for:"
+msgstr "Шаблони електронної пошти для:"
+
+#. module: mail_layout_preview
+#: model_terms:ir.ui.view,arch_db:mail_layout_preview.email_templates_list
+msgid "Find your template"
+msgstr "Знайдіть свій шаблон"
+
+#. module: mail_layout_preview
+#: model:ir.model.fields,field_description:mail_layout_preview.field_mail_template_preview__layout_preview_url
+msgid "Full layout preview"
+msgstr "Повний попередній перегляд макета"
+
+#. module: mail_layout_preview
+#: model_terms:ir.ui.view,arch_db:mail_layout_preview.email_templates_list
+msgid "Here you find all the template for the given model."
+msgstr "Тут ви знайдете всі шаблони для вказаної моделі."
+
+#. module: mail_layout_preview
+#: model_terms:ir.ui.view,arch_db:mail_layout_preview.email_templates_list
+msgid "No template found."
+msgstr "Шаблон не знайдено."
+
+#. module: mail_layout_preview
+#: model_terms:ir.ui.view,arch_db:mail_layout_preview.email_templates_list
+msgid ""
+"Paste into the address bar and change the record ID (the last value in the URL).\n"
+"              <br/>If you don't know the ID of the record, just browse to the record via odoo interface and check its ID in the address bar `#id=XXX`."
+msgstr ""
+"Вставте в адресний рядок і змініть ID запису (останнє значення в URL).\n"
+"              <br/>Якщо ви не знаєте ID запису, просто перейдіть до нього через інтерфейс Odoo та перевірте ID в адресному рядку `#id=XXX`."

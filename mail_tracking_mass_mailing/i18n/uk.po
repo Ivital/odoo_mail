@@ -79,3 +79,13 @@ msgstr "Подія відстеження пошти"
 #: model_terms:ir.ui.view,arch_db:mail_tracking_mass_mailing.mailing_trace_view_form
 msgid "User agent"
 msgstr "Агент користувача"
+
+#. module: mail_tracking_mass_mailing
+#: model:ir.actions.act_window,name:mail_tracking_mass_mailing.action_view_mail_tracking_email
+msgid "Mail tracking emails"
+msgstr "Листи відстеження пошти"
+
+#. module: mail_tracking_mass_mailing
+#: model:ir.actions.act_window,name:mail_tracking_mass_mailing.action_view_mail_tracking_event
+msgid "Mail tracking events"
+msgstr "Події відстеження пошти"

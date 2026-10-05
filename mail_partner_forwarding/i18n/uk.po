@@ -24,3 +24,14 @@ msgstr "Тест"
 #: model:ir.model.fields,field_description:mail_partner_forwarding.field_res_users__forwarding_partner_id
 msgid "Forwarding Partner"
 msgstr "Контрагент для пересилання"
+
+#. module: mail_partner_forwarding
+#: model:ir.model.fields,help:mail_partner_forwarding.field_res_partner__forwarding_partner_id
+#: model:ir.model.fields,help:mail_partner_forwarding.field_res_users__forwarding_partner_id
+msgid ""
+"Messages will be forwarded only for partners that are followers but no "
+"partners being notify because they belong to channel that is following the "
+"thread"
+msgstr ""
+"Повідомлення пересилатимуться лише контрагентам, які є підписниками, але не "
+"контрагентам, яких сповіщають через канал, що стежить за обговоренням."

@@ -62,3 +62,8 @@ msgstr "Зіставлення макетів"
 #: model:ir.model.fields,field_description:mail_layout_force.field_ir_ui_view__layout_mapping_line_ids
 msgid "Layout Mapping Line"
 msgstr "Рядок зіставлення макета"
+
+#. module: mail_layout_force
+#: model:ir.model.fields,field_description:mail_layout_force.field_email_layout_mapping__substitute_layout_id
+msgid "Substitute Layout"
+msgstr "Замінний макет"

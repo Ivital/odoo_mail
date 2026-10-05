@@ -63,3 +63,8 @@ msgstr "Шаблон листа"
 #: model_terms:ir.ui.view,arch_db:mail_template_substitute.email_template_form
 msgid "Substitution Rules"
 msgstr "Правила заміни"
+
+#. module: mail_template_substitute
+#: model:ir.model.fields,field_description:mail_template_substitute.field_mail_template_substitution_rule__substitution_mail_template_id
+msgid "Substitution Mail Template"
+msgstr "Шаблон листа заміни"

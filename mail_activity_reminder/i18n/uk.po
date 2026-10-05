@@ -42,3 +42,23 @@ msgstr "на"
 #: model_terms:ir.ui.view,arch_db:mail_activity_reminder.message_activity_assigned
 msgid "to close for"
 msgstr "для закриття"
+
+#. module: mail_activity_reminder
+#: model_terms:ir.ui.view,arch_db:mail_activity_reminder.message_activity_assigned
+msgid "<span>You have some activities assigned that expire soon:</span>"
+msgstr "<span>У вас є призначені активності, строк яких скоро спливає:</span>"
+
+#. module: mail_activity_reminder
+#: model:ir.model.fields,field_description:mail_activity_reminder.field_mail_activity__last_reminder_local
+msgid "Last reminder (local)"
+msgstr "Останнє нагадування (локальне)"
+
+#. module: mail_activity_reminder
+#: model:ir.actions.server,name:mail_activity_reminder.mail_activity_reminder_ir_actions_server
+msgid "Mail Activity: Reminders"
+msgstr "Поштова активність: нагадування"
+
+#. module: mail_activity_reminder
+#: model_terms:ir.ui.view,arch_db:mail_activity_reminder.message_activity_assigned
+msgid "assigned you an activity"
+msgstr "призначив(ла) вам активність"

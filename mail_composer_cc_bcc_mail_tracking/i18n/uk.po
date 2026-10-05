@@ -42,3 +42,32 @@ msgstr ""
 #: code:addons/mail_composer_cc_bcc_mail_tracking/static/src/message.xml:0
 msgid "To:"
 msgstr "Кому:"
+
+#. module: mail_composer_cc_bcc_mail_tracking
+#: model_terms:ir.ui.view,arch_db:mail_composer_cc_bcc_mail_tracking.res_config_settings_view_form
+msgid "Allow toggling recipients"
+msgstr "Дозволити перемикання одержувачів"
+
+#. module: mail_composer_cc_bcc_mail_tracking
+#: model_terms:ir.ui.view,arch_db:mail_composer_cc_bcc_mail_tracking.res_config_settings_view_form
+msgid "Chatter Recipients"
+msgstr "Одержувачі в чаті"
+
+#. module: mail_composer_cc_bcc_mail_tracking
+#: model_terms:ir.ui.view,arch_db:mail_composer_cc_bcc_mail_tracking.res_config_settings_view_form
+msgid ""
+"Let users switch between the single 'To' line and the full To/Cc/Bcc "
+"display."
+msgstr ""
+"Дозволити користувачам перемикатися між одним рядком «Кому» та повним "
+"відображенням Кому/Копія/Прихована копія."
+
+#. module: mail_composer_cc_bcc_mail_tracking
+#: model:ir.model.fields.selection,name:mail_composer_cc_bcc_mail_tracking.selection__res_company__chatter_recipients_default_display__collapsed
+msgid "Single 'To' line"
+msgstr "Один рядок «Кому»"
+
+#. module: mail_composer_cc_bcc_mail_tracking
+#: model:ir.model.fields.selection,name:mail_composer_cc_bcc_mail_tracking.selection__res_company__chatter_recipients_default_display__expanded
+msgid "To / Cc / Bcc split"
+msgstr "Розділення Кому / Копія / Прихована копія"

@@ -57,3 +57,63 @@ msgstr "Позначити як повернене"
 #: model_terms:ir.ui.view,arch_db:mail_tracking_mailgun.view_partner_form_mailgun
 msgid "Unset Bounced"
 msgstr "Скинути статус відхиленої пошти"
+
+#. module: mail_tracking_mailgun
+#: model_terms:ir.ui.view,arch_db:mail_tracking_mailgun.view_partner_form_mailgun
+msgid "Check email validity"
+msgstr "Перевіряти коректність email"
+
+#. module: mail_tracking_mailgun
+#: model_terms:ir.ui.view,arch_db:mail_tracking_mailgun.res_config_settings_view_form
+msgid "Connecting Odoo with"
+msgstr "Підключення Odoo до"
+
+#. module: mail_tracking_mailgun
+#: model:ir.model.fields,field_description:mail_tracking_mailgun.field_res_config_settings__mail_tracking_mailgun_enabled
+msgid "Enable mail tracking with Mailgun"
+msgstr "Увімкнути відстеження пошти через Mailgun"
+
+#. module: mail_tracking_mailgun
+#: model_terms:ir.ui.view,arch_db:mail_tracking_mailgun.res_config_settings_view_form
+msgid ""
+"If you change Mailgun settings, your Odoo URL or your sending domain, "
+"unregister webhooks and register them again to get automatic updates about "
+"sent emails:"
+msgstr ""
+"Якщо змінюєте налаштування Mailgun, URL Odoo або домен відправлення, "
+"скасуйте реєстрацію вебхуків і зареєструйте їх знову для автоматичних "
+"оновлень про надіслані листи:"
+
+#. module: mail_tracking_mailgun
+#: model_terms:ir.ui.view,arch_db:mail_tracking_mailgun.res_config_settings_view_form
+msgid "Mailgun &gt; Settings &gt; API keys"
+msgstr "Mailgun &gt; Налаштування &gt; Ключі API"
+
+#. module: mail_tracking_mailgun
+#: model:ir.model.fields,field_description:mail_tracking_mailgun.field_res_config_settings__mail_tracking_mailgun_api_url
+msgid "Mailgun API endpoint"
+msgstr "Кінцева точка API Mailgun"
+
+#. module: mail_tracking_mailgun
+#: model_terms:ir.ui.view,arch_db:mail_tracking_mailgun.res_config_settings_view_form
+msgid "Register Mailgun webhooks"
+msgstr "Зареєструвати webhooks Mailgun"
+
+#. module: mail_tracking_mailgun
+#: model_terms:ir.ui.view,arch_db:mail_tracking_mailgun.res_config_settings_view_form
+msgid ""
+"This will unregister ALL webhooks from Mailgun, which can include webhooks "
+"for other apps."
+msgstr ""
+"Це скасує реєстрацію ВСІХ вебхуків Mailgun, включно з вебхуками інших "
+"застосунків."
+
+#. module: mail_tracking_mailgun
+#: model_terms:ir.ui.view,arch_db:mail_tracking_mailgun.res_config_settings_view_form
+msgid "Unregister Mailgun webhooks"
+msgstr "Скасувати реєстрацію webhooks Mailgun"
+
+#. module: mail_tracking_mailgun
+#: model_terms:ir.ui.view,arch_db:mail_tracking_mailgun.res_config_settings_view_form
+msgid "enhances Odoo's mail tracking features."
+msgstr "розширює можливості відстеження пошти Odoo."

@@ -107,3 +107,27 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields.selection,name:mail_recipient_blocklist.selection__mail_recipient_block_rule__pattern_type__wildcard
 msgid "Wildcard"
 msgstr "Шаблонний символ"
+
+#. module: mail_recipient_blocklist
+#: model_terms:ir.actions.act_window,help:mail_recipient_blocklist.mail_recipient_block_rule_action
+msgid "Create a recipient block rule"
+msgstr "Створити правило блокування одержувача"
+
+#. module: mail_recipient_blocklist
+#: model_terms:ir.actions.act_window,help:mail_recipient_blocklist.mail_recipient_block_rule_action
+msgid ""
+"Outgoing emails matching these rules will not be delivered to those "
+"recipients."
+msgstr ""
+"Вихідні листи, що відповідають цим правилам, не доставлятимуться цим "
+"одержувачам."
+
+#. module: mail_recipient_blocklist
+#: model_terms:ir.ui.view,arch_db:mail_recipient_blocklist.mail_recipient_block_rule_view_form
+msgid "Recipient Block Rule"
+msgstr "Правило блокування одержувача"
+
+#. module: mail_recipient_blocklist
+#: model:ir.model.fields.selection,name:mail_recipient_blocklist.selection__mail_recipient_block_rule__pattern_type__regex
+msgid "Regular expression"
+msgstr "Регулярний вираз"

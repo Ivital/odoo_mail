@@ -44,3 +44,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_restrict_follower_selection.field_res_users__message_partner_ids
 msgid "Followers (Partners)"
 msgstr "Підписники (контрагенти)"
+
+#. module: mail_restrict_follower_selection
+#: model:ir.actions.act_window,name:mail_restrict_follower_selection.action_setup
+msgid "Configure the restriction on followers"
+msgstr "Налаштувати обмеження для підписників"
